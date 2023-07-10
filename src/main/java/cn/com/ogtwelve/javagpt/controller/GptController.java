@@ -13,9 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/gpt")
 public class GptController {
 
-    @RequestMapping("/test")
-    public void test() {
-        System.out.println("test");
-    }
+
 
 }
